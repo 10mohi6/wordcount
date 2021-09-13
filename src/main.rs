@@ -5,7 +5,7 @@ use std::fs::File;
 // use std::io::BufRead;
 use std::io::BufReader;
 
-use wordcount::count;
+use bicycle_book_wordcount::count;
 
 // pub fn count(input: impl BufRead) -> HashMap<String, usize>{
 //     let re =Regex::new(r"\w+").unwrap();
